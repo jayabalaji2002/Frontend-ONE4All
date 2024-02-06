@@ -82,6 +82,7 @@
     .popular{
         height: 90vh;
         /* gap: 6px; */
+        margin-bottom: 200px;
     }
     .popular h1{
         font-size: 20px;
