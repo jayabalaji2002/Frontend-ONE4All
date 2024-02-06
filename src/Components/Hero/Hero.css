@@ -96,6 +96,10 @@
   .hero-right img{
     width: 500px;
   }
+  .hero{
+    /* flex-direction: column; */
+    height: 70vh;
+  }
 }
 
 @media(max-width:1024px) {
@@ -121,9 +125,18 @@
   .hero-right img{
     width: 400px;
   }
+  .hero{
+    /* flex-direction: column; */
+    height: 60vh;
+  }
 }
 
 @media(max-width:800px) {
+  
+  .hero{
+    /* flex-direction: column; */
+    height: 50vh;
+  }
   .hero-left{
     padding-left: 30px;
   }
@@ -151,6 +164,7 @@
 @media(max-width:500px){
   .hero{
     flex-direction: column;
+    height: 80vh;
   }
 .hero-right{
   display: none;
