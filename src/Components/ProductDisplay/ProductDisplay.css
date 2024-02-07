@@ -278,11 +278,11 @@ gap: 17px;
         flex-direction: column;
     }
     .productdisplay-img-list img{
-        height: 75px;
+        height: 70px;
     }
     .productdisplay-main-img{
         /* width: auto; */
-        height: 330px;
+        height: 300px;
     }
     .productdisplay-right{
         margin: 5px;
