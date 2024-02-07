@@ -61,91 +61,53 @@
   background: #c7c7c7;
 }
 
-/* For screens smaller than 576px (e.g., mobile phones) */
-@media only screen and (max-width: 575.98px) {
-  .footer {
+@media(max-width:800px){
+  .footer{
     gap: 20px;
   }
-
-  .footer-logo {
-    flex-direction: column;
-    align-items: center;
+  .footer-logo{
+    gap: 10px;
+    align-items: end;
+  }
+  .footer-logo img{
+    width: 40px;
+  }
+  .footer-logo p{
+    font-size: 25px;
+  }
+  .footer-links{
+    font-size: 14px;
     gap: 10px;
   }
-
-  .footer-logo p {
-    font-size: 36px;
+  .footer-social-icon img{
+    width: 22px;
   }
-
-  .footer-links {
-    flex-direction: row;
-    gap: 20px;
-  }
-
-  .footer-links li {
-    font-size: 13px; /* Adjust the font size as needed */
-  }
-
-  .footer-social-icon {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .footer-copyright {
-    font-size: 10px;
-  }
-}
-
-@media only screen and (max-width: 575.98px) {
-  .footer-social-icon {
-    flex-direction: row;
-    gap: 10px;
-  }
-}
-
-/* For screens between 576px and 768px (e.g., tablets) */
-@media only screen and (min-width: 576px) and (max-width: 767.98px) {
-  /* Adjust styles accordingly */
-  .footer-icons-container {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    padding-bottom: 6px;
-  }
-  .footer-copyright {
-    font-size: 12px;
-  }
-
-  .footer-links {
-    flex-direction: row;
-    gap: 20px;
-  }
-
-  .footer-links li {
-    font-size: 16px; /* Adjust the font size as needed */
-  }
-}
-
-/* For screens between 768px and 992px (e.g., small desktops) */
-@media only screen and (min-width: 768px) and (max-width: 991.98px) {
-  /* Adjust styles accordingly */
-  .footer-copyright {
+  .footer-copyright{
     font-size: 13px;
   }
 }
-
-/* For screens between 992px and 1200px (e.g., medium-sized desktops) */
-@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
-  /* Adjust styles accordingly */
-  .footer-copyright {
-    font-size: 20px;
+@media(max-width:500px){
+  .footer{
+    gap: 15px;
   }
-}
-
-/* For screens larger than 1200px (e.g., large desktops) */
-@media only screen and (min-width: 1200px) {
-  /* Adjust styles accordingly */
-  .footer-copyright {
-    font-size: 24px;
+  .footer-logo{
+    gap: 10px;
+    align-items: end;
+  }
+  .footer-logo img{
+    width: 40px;
+  }
+  .footer-logo p{
+    font-size: 25px;
+  }
+  .footer-links{
+    font-size: 12px;
+    gap: 8px;
+  }
+  .footer-social-icon img{
+    width: 16px;
+  }
+  .footer-copyright{
+    font-size: 12px;
   }
 }
