@@ -6,6 +6,7 @@ const NewsLetter = () => {
   return (
     <div className='newsletter'>
       <h1>Get Exclusive Offers On Your Email</h1>
+      <p>Subscribe to our newsletter and Stay Updated</p>
       <div>
         <input type="email" name="email" placeholder='Type ur Email' />
         <button>Subscribe</button>
